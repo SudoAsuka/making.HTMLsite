@@ -23,8 +23,18 @@
     </style>
 </head>
 <body>
-
-    
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="nabvar-toggle collapsed" date-toggle=>
+                    <span class="sr-only">taggle navigation</span>
+                    <span class="icon-bar">コメント</span>
+                    <span class="icon-bar">表</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <img src="file:///C:/Users/飛鳥/Desktop/HTML/IMG_7072">
     <div class="row">
         <div class="col-sm-12">
             <div class="container">
@@ -56,6 +66,45 @@
             </div>
         </div>
     </div>        
+    <table table class="table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>名前</th>
+                <th>性別</th>
+                <th>特徴</th>
+                <th>住所</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1</th>
+                <th>安藤さくら</th>
+                <th>女性</th>
+                <th>背が高い</th>
+                <th>東京都千代田区</th>
+            </tr>
+            <tr>
+                <th>2</th>
+                <th>渡部たくみ</th>
+                <th>男性</th>
+                <th>おちゃめ</th>
+                <th>大阪府難波</th>
+            </tr>
+        </tbody>
+    </table>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label class="col-sm-2 control-rabel for="title">タイトル</label>
+                <div class="col-sm-10">
+                    <input  type="text"  class="form-control" name="title" id="title">
+                </div>
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit">送信する</button>
+            </div>
+        </div>
+
+    </form>
 	<!-- /.container -->
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
